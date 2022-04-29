@@ -12,7 +12,7 @@ repo for more info on env vars.
 
 ```
   send:
-    image: ghcr.io/xnaas/send:stable
+    image: ghcr.io/xnaas/send:latest
     container_name: send
     restart: unless-stopped
     depends_on:
